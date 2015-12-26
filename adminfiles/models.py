@@ -8,7 +8,7 @@ from django.core.files.images import get_image_dimensions
 from django.utils.translation import ugettext_lazy as _
 
 from django.contrib.contenttypes.models import ContentType
-from django.contrib.contenttypes import generic
+from django.contrib.contenttypes.fields import GenericForeignKey
 
 from adminfiles import settings
 
